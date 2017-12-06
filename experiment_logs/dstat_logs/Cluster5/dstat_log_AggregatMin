@@ -1,0 +1,100 @@
+
+
+
+***** AggregateMin - integer_2gb.csv
+./AggregateMin.sh: line 28: dstat: command not found
+
+
+
+***** AggregateMin - integer_4gb.csv
+./AggregateMin.sh: line 68: dstat: command not found
+
+
+
+***** AggregateMin - integer_8gb.csv
+./AggregateMin.sh: line 108: dstat: command not found
+
+
+
+***** AggregateMin - integer_16gb.csv
+./AggregateMin.sh: line 149: dstat: command not found
+
+
+
+***** AggregateMin - integer_32gb.csv
+./AggregateMin.sh: line 190: dstat: command not found
+
+
+
+***** AggregateMin - string_2gb.csv
+./AggregateMin.sh: line 233: dstat: command not found
+
+
+
+***** AggregateMin - string_4gb.csv
+./AggregateMin.sh: line 274: dstat: command not found
+
+
+
+***** AggregateMin - string_8gb.csv
+./AggregateMin.sh: line 313: dstat: command not found
+
+
+
+***** AggregateMin - string_16gb.csv
+./AggregateMin.sh: line 354: dstat: command not found
+
+
+
+***** AggregateMin - string_32gb.csv
+./AggregateMin.sh: line 395: dstat: command not found
+
+
+
+***** AggregateAvg - integer_2gb.csv
+./AggregateAvg.sh: line 28: dstat: command not found
+
+
+
+***** AggregateAvg - integer_4gb.csv
+./AggregateAvg.sh: line 68: dstat: command not found
+
+
+
+***** AggregateAvg - integer_8gb.csv
+./AggregateAvg.sh: line 108: dstat: command not found
+
+
+
+***** AggregateAvg - integer_16gb.csv
+./AggregateAvg.sh: line 149: dstat: command not found
+
+
+
+***** AggregateAvg - integer_32gb.csv
+./AggregateAvg.sh: line 190: dstat: command not found
+
+
+
+***** AggregateAvg - string_2gb.csv
+./AggregateAvg.sh: line 233: dstat: command not found
+
+
+
+***** AggregateAvg - string_4gb.csv
+./AggregateAvg.sh: line 274: dstat: command not found
+
+
+
+***** AggregateAvg - string_8gb.csv
+./AggregateAvg.sh: line 313: dstat: command not found
+
+
+
+***** AggregateAvg - string_16gb.csv
+./AggregateAvg.sh: line 354: dstat: command not found
+
+
+
+***** AggregateAvg - string_32gb.csv
+./AggregateAvg.sh: line 395: dstat: command not found

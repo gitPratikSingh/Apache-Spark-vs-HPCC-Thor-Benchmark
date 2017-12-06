@@ -1,0 +1,4 @@
+00000000 2017-12-03 14:42:46.256  3388  3388 "ftslave log dir set to /mnt/var/log/HPCCSystems/mydfuserver"
+00000001 2017-12-03 14:42:48.298  3388  3388 "DFU server waiting on queue dfuserver_queue"
+00000002 2017-12-03 14:42:48.302  3388  3388 "DFU monitor waiting on queue dfuserver_monitor_queue timeout 900000"
+00000003 2017-12-03 14:42:48.307  3388  3388 "Creating sentinel file dfuserver.sentinel for rerun from script"

@@ -1,0 +1,50 @@
+
+
+
+***** AggregateCountTotal - integer_2gb.csv
+./AggregateCountTotal.sh: line 28: dstat: command not found
+
+
+
+***** AggregateCountTotal - integer_4gb.csv
+./AggregateCountTotal.sh: line 68: dstat: command not found
+
+
+
+***** AggregateCountTotal - integer_8gb.csv
+./AggregateCountTotal.sh: line 108: dstat: command not found
+
+
+
+***** AggregateCountTotal - integer_16gb.csv
+./AggregateCountTotal.sh: line 149: dstat: command not found
+
+
+
+***** AggregateCountTotal - integer_32gb.csv
+./AggregateCountTotal.sh: line 190: dstat: command not found
+
+
+
+***** AggregateCountTotal - string_2gb.csv
+./AggregateCountTotal.sh: line 233: dstat: command not found
+
+
+
+***** AggregateCountTotal - string_4gb.csv
+./AggregateCountTotal.sh: line 274: dstat: command not found
+
+
+
+***** AggregateCountTotal - string_8gb.csv
+./AggregateCountTotal.sh: line 313: dstat: command not found
+
+
+
+***** AggregateCountTotal - string_16gb.csv
+./AggregateCountTotal.sh: line 354: dstat: command not found
+
+
+
+***** AggregateCountTotal - string_32gb.csv
+./AggregateCountTotal.sh: line 395: dstat: command not found

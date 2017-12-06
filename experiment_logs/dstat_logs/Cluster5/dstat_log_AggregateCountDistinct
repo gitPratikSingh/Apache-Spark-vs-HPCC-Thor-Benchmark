@@ -1,0 +1,100 @@
+
+
+
+***** AggregateCountDistinct - integer_2gb.csv
+./AggregateCountDistinct.sh: line 28: dstat: command not found
+
+
+
+***** AggregateCountDistinct - integer_4gb.csv
+./AggregateCountDistinct.sh: line 68: dstat: command not found
+
+
+
+***** AggregateCountDistinct - integer_8gb.csv
+./AggregateCountDistinct.sh: line 108: dstat: command not found
+
+
+
+***** AggregateCountDistinct - integer_16gb.csv
+./AggregateCountDistinct.sh: line 149: dstat: command not found
+
+
+
+***** AggregateCountDistinct - integer_32gb.csv
+./AggregateCountDistinct.sh: line 190: dstat: command not found
+
+
+
+***** AggregateCountDistinct - string_2gb.csv
+./AggregateCountDistinct.sh: line 233: dstat: command not found
+
+
+
+***** AggregateCountDistinct - string_4gb.csv
+./AggregateCountDistinct.sh: line 274: dstat: command not found
+
+
+
+***** AggregateCountDistinct - string_8gb.csv
+./AggregateCountDistinct.sh: line 313: dstat: command not found
+
+
+
+***** AggregateCountDistinct - string_16gb.csv
+./AggregateCountDistinct.sh: line 354: dstat: command not found
+
+
+
+***** AggregateCountDistinct - string_32gb.csv
+./AggregateCountDistinct.sh: line 395: dstat: command not found
+
+
+
+***** AggregateMax - integer_2gb.csv
+./AggregateMax.sh: line 28: dstat: command not found
+
+
+
+***** AggregateMax - integer_4gb.csv
+./AggregateMax.sh: line 68: dstat: command not found
+
+
+
+***** AggregateMax - integer_8gb.csv
+./AggregateMax.sh: line 108: dstat: command not found
+
+
+
+***** AggregateMax - integer_16gb.csv
+./AggregateMax.sh: line 149: dstat: command not found
+
+
+
+***** AggregateMax - integer_32gb.csv
+./AggregateMax.sh: line 190: dstat: command not found
+
+
+
+***** AggregateMax - string_2gb.csv
+./AggregateMax.sh: line 233: dstat: command not found
+
+
+
+***** AggregateMax - string_4gb.csv
+./AggregateMax.sh: line 274: dstat: command not found
+
+
+
+***** AggregateMax - string_8gb.csv
+./AggregateMax.sh: line 313: dstat: command not found
+
+
+
+***** AggregateMax - string_16gb.csv
+./AggregateMax.sh: line 354: dstat: command not found
+
+
+
+***** AggregateMax - string_32gb.csv
+./AggregateMax.sh: line 395: dstat: command not found

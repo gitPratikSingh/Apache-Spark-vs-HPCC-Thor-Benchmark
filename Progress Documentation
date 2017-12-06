@@ -1,0 +1,45 @@
+
+Oct 31:
+Need to find a benchmark which lists the exact sql queries to run - and not just templates
+2 benchmarks suggested by Chin - 
+  HiBench
+  Spark-Perf
+
+HiBench
+Found 4 queries - one of each type - aggregate, join, load, etc
+https://github.com/intel-hadoop/HiBench/blob/master/sparkbench/sql/src/main/scala/com/intel/hibench/sparkbench/sql/ScalaSparkSQLBench.scala
+It uses some ‘sql_file’ which contains sql commands and runs it over in Hive.
+
+```
+DROP TABLE IF EXISTS uservisits;
+CREATE EXTERNAL TABLE uservisits (sourceIP STRING,destURL STRING,visitDate STRING,adRevenue DOUBLE,userAgent STRING,countryCode STRING,languageCode STRING,searchWord STRING,duration INT ) ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' STORED AS  SEQUENCEFILE LOCATION '$INPUT_HDFS/uservisits';
+```
+```
+DROP TABLE IF EXISTS uservisits_aggre;
+CREATE EXTERNAL TABLE uservisits_aggre ( sourceIP STRING, sumAdRevenue DOUBLE) STORED AS  SEQUENCEFILE LOCATION '$OUTPUT_HDFS/uservisits_aggre';
+
+INSERT OVERWRITE TABLE uservisits_aggre SELECT sourceIP, SUM(adRevenue) FROM uservisits GROUP BY sourceIP;
+```
+We thought of installing hibench and playing with it to see if this above workload runs on spark properly - but we got a lot of errors in just the installation process - we just want to inquire if these kinds of queries are optimal for benchmarking spark and hpcc before we spend the time in debugging installation errors of hibench
+
+Spark-Perf
+Ref: https://github.com/databricks/spark-perf - suggested by Chin
+It doesnt list the sql workloads - says “coming soon”
+We found another repo on googling though - https://github.com/databricks/spark-sql-perf
+This is alo a framework as per our understanding - to run any benchmarking query
+They use the example of TPC-DC benchmark (https://www.researchgate.net/profile/Raghu_Nambiar/publication/221310091_Why_You_Should_Run_TPC-DS_A_Workload_Analysis/links/56d76c7508aebe4638af1e37.pdf)
+This benchmark is vendor neutral - developed with no particular architecture in mind
+It is specifically for testing and benchmarking databases and evaluate their performance in case of multi-user concurrent queries
+It has 99 query templates - not actual queries
+
+Nov 1:
+We are planning to use the data generator of vivek nair group written for thor - and run that same data on spark (Ref: https://github.com/hpcc-systems/hpcc-vs-spark/blob/master/benchmarks/Thor/BWR_DataGenerationInteger.ecl) 
+Installed dstat on ec2 instance for collecting application stats
+HPCC Thor:
+  Created a data generator for Thor and ran an ecl count query over it. The datafile contained only integers and its size was 200MB(1.3 sec) and 4.8 GB(30.5 sec).
+  I will explore other data types and find which queries make sense for comparison.
+Apache Spark:
+  Took the data file (csv format) generated for thor by ECL
+  Ran sql query on this csv file using interactive shell of spark
+  To do: follow the tutorial to submit spark application jobs for scala and run sql queries (https://www.cs.duke.edu/courses/fall15/compsci290.1/TA_Material/jungkang/how_to_run_spark_app.pdf) 
+

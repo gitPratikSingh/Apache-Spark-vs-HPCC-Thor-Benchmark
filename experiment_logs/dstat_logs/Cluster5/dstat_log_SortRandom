@@ -1,0 +1,25 @@
+
+
+
+***** SortRandom - integer_2gb.csv
+./SortRandom.sh: line 28: dstat: command not found
+
+
+
+***** SortRandom - integer_4gb.csv
+./SortRandom.sh: line 68: dstat: command not found
+
+
+
+***** SortRandom - integer_8gb.csv
+./SortRandom.sh: line 108: dstat: command not found
+
+
+
+***** SortRandom - integer_16gb.csv
+./SortRandom.sh: line 149: dstat: command not found
+
+
+
+***** SortRandom - integer_32gb.csv
+./SortRandom.sh: line 190: dstat: command not found

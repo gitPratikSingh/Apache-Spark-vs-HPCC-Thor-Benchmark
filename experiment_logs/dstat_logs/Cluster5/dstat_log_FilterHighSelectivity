@@ -1,0 +1,50 @@
+
+
+
+***** FilterHighSelectivity - integer_2gb.csv
+./FilterHighSelectivity.sh: line 28: dstat: command not found
+
+
+
+***** FilterHighSelectivity - integer_4gb.csv
+./FilterHighSelectivity.sh: line 68: dstat: command not found
+
+
+
+***** FilterHighSelectivity - integer_8gb.csv
+./FilterHighSelectivity.sh: line 108: dstat: command not found
+
+
+
+***** FilterHighSelectivity - integer_16gb.csv
+./FilterHighSelectivity.sh: line 149: dstat: command not found
+
+
+
+***** FilterHighSelectivity - integer_32gb.csv
+./FilterHighSelectivity.sh: line 190: dstat: command not found
+
+
+
+***** FilterHighSelectivity - string_2gb.csv
+./FilterHighSelectivity.sh: line 233: dstat: command not found
+
+
+
+***** FilterHighSelectivity - string_4gb.csv
+./FilterHighSelectivity.sh: line 274: dstat: command not found
+
+
+
+***** FilterHighSelectivity - string_8gb.csv
+./FilterHighSelectivity.sh: line 313: dstat: command not found
+
+
+
+***** FilterHighSelectivity - string_16gb.csv
+./FilterHighSelectivity.sh: line 354: dstat: command not found
+
+
+
+***** FilterHighSelectivity - string_32gb.csv
+./FilterHighSelectivity.sh: line 395: dstat: command not found

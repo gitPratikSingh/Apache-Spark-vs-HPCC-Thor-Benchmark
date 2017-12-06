@@ -1,0 +1,431 @@
+	Cluster Type	#Nodes	Total Cluster RAM(GB)	Dataset Size(GB)	Data Type	Opeartion	Time(s)	CPU %
+	THOR	1	8	2	Integer	Total Count	51.54	51
+	THOR	1	8	4	Integer	Total Count	104.87	51
+	THOR	1	8	8	Integer	Total Count	208.545	51
+	THOR	1	8	16	Integer	Total Count	420.41	51
+	THOR	1	8	32	Integer	Total Count	829	51
+	THOR	1	8	2	Integer	Distinct Count	157.779	56
+	THOR	1	8	4	Integer	Distinct Count	319.928	56
+	THOR	1	8	8	Integer	Distinct Count	635	56
+	THOR	1	8	16	Integer	Distinct Count	1323	56
+	THOR	1	8	32	Integer	Distinct Count	2647	56
+	THOR	1	8	2	Integer	Filter: High Selectivity	27.122	52
+	THOR	1	8	4	Integer	Filter: High Selectivity	76.55	52
+	THOR	1	8	8	Integer	Filter: High Selectivity	154.54	52
+	THOR	1	8	16	Integer	Filter: High Selectivity	301.23	52
+	THOR	1	8	32	Integer	Filter: High Selectivity	616.5	52
+	THOR	1	8	2	Integer	Filter: Low Selectivity	32.6	52
+	THOR	1	8	4	Integer	Filter: Low Selectivity	70.65	52
+	THOR	1	8	8	Integer	Filter: Low Selectivity	142.5	52
+	THOR	1	8	16	Integer	Filter: Low Selectivity	275.4	52
+	THOR	1	8	32	Integer	Filter: Low Selectivity	566.7	52
+	THOR	1	8	2	Integer	Aggregate by key	79.68	58
+	THOR	1	8	4	Integer	Aggregate by key	156.3	58
+	THOR	1	8	8	Integer	Aggregate by key	320.168	58
+	THOR	1	8	16	Integer	Aggregate by key	621	58
+	THOR	1	8	32	Integer	Aggregate by key	1268	58
+	THOR	1	8	2	Integer	Sort by key	165.48	59
+	THOR	1	8	4	Integer	Sort by key	329.266	59
+	THOR	1	8	8	Integer	Sort by key	733.15	59
+	THOR	1	8	16	Integer	Sort by key	1408	59
+	THOR	1	8	32	Integer	Sort by key	2936	59
+	THOR	1	8	2	Integer	Average value of Key	51.24	55
+	THOR	1	8	4	Integer	Average value of Key	101.896	55
+	THOR	1	8	8	Integer	Average value of Key	208.841	55
+	THOR	1	8	16	Integer	Average value of Key	411.95	55
+	THOR	1	8	32	Integer	Average value of Key	817	55
+	THOR	1	8	2	Integer	Min key	51.26	52
+	THOR	1	8	4	Integer	Min key	101.23	52
+	THOR	1	8	8	Integer	Min key	206.32	52
+	THOR	1	8	16	Integer	Min key	411.517	52
+	THOR	1	8	32	Integer	Min key	810.645	52
+	THOR	1	8	2	Integer	Max Key	50.95	51
+	THOR	1	8	4	Integer	Max Key	100.9	51
+	THOR	1	8	8	Integer	Max Key	205.83	51
+	THOR	1	8	16	Integer	Max Key	412.012	51
+	THOR	1	8	32	Integer	Max Key	809.442	51
+	THOR	3	24	2	Integer	Total Count	23.951	51
+	THOR	3	24	4	Integer	Total Count	52.166	51
+	THOR	3	24	8	Integer	Total Count	102.823	51
+	THOR	3	24	16	Integer	Total Count	171.6	51
+	THOR	3	24	32	Integer	Total Count	445.21	51
+	THOR	3	24	2	Integer	Distinct Count	65.49	56
+	THOR	3	24	4	Integer	Distinct Count	144.3	56
+	THOR	3	24	8	Integer	Distinct Count	425	56
+	THOR	3	24	16	Integer	Distinct Count	880	56
+	THOR	3	24	32	Integer	Distinct Count	1821.23	56
+	THOR	3	24	2	Integer	Filter: High Selectivity	16.23	52
+	THOR	3	24	4	Integer	Filter: High Selectivity	31.21	52
+	THOR	3	24	8	Integer	Filter: High Selectivity	81.26	52
+	THOR	3	24	16	Integer	Filter: High Selectivity	150.64	52
+	THOR	3	24	32	Integer	Filter: High Selectivity	340.51	52
+	THOR	3	24	2	Integer	Filter: Low Selectivity	14.939	52
+	THOR	3	24	4	Integer	Filter: Low Selectivity	27.668	52
+	THOR	3	24	8	Integer	Filter: Low Selectivity	75.112	52
+	THOR	3	24	16	Integer	Filter: Low Selectivity	140.26	52
+	THOR	3	24	32	Integer	Filter: Low Selectivity	311.12	52
+	THOR	3	24	2	Integer	Aggregate by key	40.91	58
+	THOR	3	24	4	Integer	Aggregate by key	80.25	58
+	THOR	3	24	8	Integer	Aggregate by key	192.3	58
+	THOR	3	24	16	Integer	Aggregate by key	412.31	58
+	THOR	3	24	32	Integer	Aggregate by key	868.23	58
+	THOR	3	24	2	Integer	Sort by key	82.31	59
+	THOR	3	24	4	Integer	Sort by key	240.12	59
+	THOR	3	24	8	Integer	Sort by key	522.11	59
+	THOR	3	24	16	Integer	Sort by key	1174.15	59
+	THOR	3	24	32	Integer	Sort by key	2454	59
+	THOR	3	24	2	Integer	Average value of Key	17.795	55
+	THOR	3	24	4	Integer	Average value of Key	43.737	55
+	THOR	3	24	8	Integer	Average value of Key	74.816	55
+	THOR	3	24	16	Integer	Average value of Key	174.55	55
+	THOR	3	24	32	Integer	Average value of Key	366.65	55
+	THOR	3	24	2	Integer	Min key	20.31	52
+	THOR	3	24	4	Integer	Min key	44.93	52
+	THOR	3	24	8	Integer	Min key	81.21	52
+	THOR	3	24	16	Integer	Min key	178.54	52
+	THOR	3	24	32	Integer	Min key	371.26	52
+	THOR	3	24	2	Integer	Max Key	20.54	51
+	THOR	3	24	4	Integer	Max Key	43.52	51
+	THOR	3	24	8	Integer	Max Key	78.65	51
+	THOR	3	24	16	Integer	Max Key	169.81	51
+	THOR	3	24	32	Integer	Max Key	384.21	51
+	THOR	4	32	2	Integer	Total Count	13.33	51
+	THOR	4	32	4	Integer	Total Count	28.95	51
+	THOR	4	32	8	Integer	Total Count	57.83	51
+	THOR	4	32	16	Integer	Total Count	148.21	51
+	THOR	4	32	32	Integer	Total Count	332.31	51
+	THOR	4	32	2	Integer	Distinct Count	56.145	56
+	THOR	4	32	4	Integer	Distinct Count	115.21	56
+	THOR	4	32	8	Integer	Distinct Count	239.32	56
+	THOR	4	32	16	Integer	Distinct Count	782	56
+	THOR	4	32	32	Integer	Distinct Count	1590	56
+	THOR	4	32	2	Integer	Filter: High Selectivity	12.93	52
+	THOR	4	32	4	Integer	Filter: High Selectivity	28.654	52
+	THOR	4	32	8	Integer	Filter: High Selectivity	46.856	52
+	THOR	4	32	16	Integer	Filter: High Selectivity	94.587	52
+	THOR	4	32	32	Integer	Filter: High Selectivity	227.039	52
+	THOR	4	32	2	Integer	Filter: Low Selectivity	12.56	52
+	THOR	4	32	4	Integer	Filter: Low Selectivity	26.91	52
+	THOR	4	32	8	Integer	Filter: Low Selectivity	46.38	52
+	THOR	4	32	16	Integer	Filter: Low Selectivity	90.28	52
+	THOR	4	32	32	Integer	Filter: Low Selectivity	196.39	52
+	THOR	4	32	2	Integer	Aggregate by key	29.743	58
+	THOR	4	32	4	Integer	Aggregate by key	70.134	58
+	THOR	4	32	8	Integer	Aggregate by key	125.584	58
+	THOR	4	32	16	Integer	Aggregate by key	283.118	58
+	THOR	4	32	32	Integer	Aggregate by key	646	58
+	THOR	4	32	2	Integer	Sort by key	59.56	59
+	THOR	4	32	4	Integer	Sort by key	134.085	59
+	THOR	4	32	8	Integer	Sort by key	390.64	59
+	THOR	4	32	16	Integer	Sort by key	984.713	59
+	THOR	4	32	32	Integer	Sort by key	1974	59
+	THOR	4	32	2	Integer	Average value of Key	12.96	55
+	THOR	4	32	4	Integer	Average value of Key	40.61	55
+	THOR	4	32	8	Integer	Average value of Key	71.56	55
+	THOR	4	32	16	Integer	Average value of Key	163.89	55
+	THOR	4	32	32	Integer	Average value of Key	301.265	55
+	THOR	4	32	2	Integer	Min key	14.994	52
+	THOR	4	32	4	Integer	Min key	34.934	52
+	THOR	4	32	8	Integer	Min key	65.513	52
+	THOR	4	32	16	Integer	Min key	139.156	52
+	THOR	4	32	32	Integer	Min key	302.888	52
+	THOR	4	32	2	Integer	Max Key	13.841	51
+	THOR	4	32	4	Integer	Max Key	34.646	51
+	THOR	4	32	8	Integer	Max Key	66.953	51
+	THOR	4	32	16	Integer	Max Key	137.566	51
+	THOR	4	32	32	Integer	Max Key	306.672	51
+	SPARK	1	8	2	Integer	Total Count	148.079	
+	SPARK	1	8	4	Integer	Total Count	277.575	
+	SPARK	1	8	8	Integer	Total Count	547.907	
+	SPARK	1	8	16	Integer	Total Count	1079.411	
+	SPARK	1	8	32	Integer	Total Count	2155.099	
+	SPARK	1	8	2	Integer	Distinct Count	240.703	
+	SPARK	1	8	4	Integer	Distinct Count	289.908	
+	SPARK	1	8	8	Integer	Distinct Count	577.705	
+	SPARK	1	8	16	Integer	Distinct Count	1101.332	
+	SPARK	1	8	32	Integer	Distinct Count	2190.464	
+	SPARK	1	8	2	Integer	Filter: High Selectivity	129.335	
+	SPARK	1	8	4	Integer	Filter: High Selectivity	291.529	
+	SPARK	1	8	8	Integer	Filter: High Selectivity	605.964	
+	SPARK	1	8	16	Integer	Filter: High Selectivity	1177.114	
+	SPARK	1	8	32	Integer	Filter: High Selectivity	2319.351	
+	SPARK	1	8	2	Integer	Filter: Low Selectivity	147.278	
+	SPARK	1	8	4	Integer	Filter: Low Selectivity	282.389	
+	SPARK	1	8	8	Integer	Filter: Low Selectivity	628.459	
+	SPARK	1	8	16	Integer	Filter: Low Selectivity	1121.67	
+	SPARK	1	8	32	Integer	Filter: Low Selectivity	2256.64	
+	SPARK	1	8	2	Integer	Aggregate by key	129.515	
+	SPARK	1	8	4	Integer	Aggregate by key	179.515	
+	SPARK	1	8	8	Integer	Aggregate by key	320.15	
+	SPARK	1	8	16	Integer	Aggregate by key	658.174	
+	SPARK	1	8	32	Integer	Aggregate by key	1369.91	
+	SPARK	1	8	2	Integer	Sort by key	386.417	
+	SPARK	1	8	4	Integer	Sort by key	840.875	
+	SPARK	1	8	8	Integer	Sort by key	1560.214	
+	SPARK	1	8	16	Integer	Sort by key	3251.87	
+	SPARK	1	8	32	Integer	Sort by key	6524.657	
+	SPARK	1	8	2	Integer	Average value of Key	135.462	
+	SPARK	1	8	4	Integer	Average value of Key	225.625	
+	SPARK	1	8	8	Integer	Average value of Key	547.003	
+	SPARK	1	8	16	Integer	Average value of Key	914.385	
+	SPARK	1	8	32	Integer	Average value of Key	1823.652	
+	SPARK	1	8	2	Integer	Min key	136.568	
+	SPARK	1	8	4	Integer	Min key	226.278	
+	SPARK	1	8	8	Integer	Min key	473.063	
+	SPARK	1	8	16	Integer	Min key	1063.967	
+	SPARK	1	8	32	Integer	Min key	2165.241	
+	SPARK	1	8	2	Integer	Max Key	134.301	
+	SPARK	1	8	4	Integer	Max Key	267.936	
+	SPARK	1	8	8	Integer	Max Key	517.122	
+	SPARK	1	8	16	Integer	Max Key	1095.296	
+	SPARK	1	8	32	Integer	Max Key	2249.471	
+	SPARK	3	24	2	Integer	Total Count	78.15	
+	SPARK	3	24	4	Integer	Total Count	147.211	
+	SPARK	3	24	8	Integer	Total Count	267.157	
+	SPARK	3	24	16	Integer	Total Count	559.326	
+	SPARK	3	24	32	Integer	Total Count	2155.099	
+	SPARK	3	24	2	Integer	Distinct Count	180.968	
+	SPARK	3	24	4	Integer	Distinct Count	229.645	
+	SPARK	3	24	8	Integer	Distinct Count	388.454	
+	SPARK	3	24	16	Integer	Distinct Count	797.358	
+	SPARK	3	24	32	Integer	Distinct Count	1781.157	
+	SPARK	3	24	2	Integer	Filter: High Selectivity	79.185	
+	SPARK	3	24	4	Integer	Filter: High Selectivity	201.954	
+	SPARK	3	24	8	Integer	Filter: High Selectivity	458.122	
+	SPARK	3	24	16	Integer	Filter: High Selectivity	858.363	
+	SPARK	3	24	32	Integer	Filter: High Selectivity	1764.554	
+	SPARK	3	24	2	Integer	Filter: Low Selectivity	98.654	
+	SPARK	3	24	4	Integer	Filter: Low Selectivity	184.545	
+	SPARK	3	24	8	Integer	Filter: Low Selectivity	501.98	
+	SPARK	3	24	16	Integer	Filter: Low Selectivity	802.77	
+	SPARK	3	24	32	Integer	Filter: Low Selectivity	1786.357	
+	SPARK	3	24	2	Integer	Aggregate by key	104.575	
+	SPARK	3	24	4	Integer	Aggregate by key	145.35	
+	SPARK	3	24	8	Integer	Aggregate by key	262.28	
+	SPARK	3	24	16	Integer	Aggregate by key	584.254	
+	SPARK	3	24	32	Integer	Aggregate by key	1154.03	
+	SPARK	3	24	2	Integer	Sort by key	296.324	
+	SPARK	3	24	4	Integer	Sort by key	645.521	
+	SPARK	3	24	8	Integer	Sort by key	1328.419	
+	SPARK	3	24	16	Integer	Sort by key	2915.947	
+	SPARK	3	24	32	Integer	Sort by key	5257.157	
+	SPARK	3	24	2	Integer	Average value of Key	135.654	
+	SPARK	3	24	4	Integer	Average value of Key	268.194	
+	SPARK	3	24	8	Integer	Average value of Key	547.003	
+	SPARK	3	24	16	Integer	Average value of Key	965.264	
+	SPARK	3	24	32	Integer	Average value of Key	2166.386	
+	SPARK	3	24	2	Integer	Min key	96.674	
+	SPARK	3	24	4	Integer	Min key	185.357	
+	SPARK	3	24	8	Integer	Min key	357.653	
+	SPARK	3	24	16	Integer	Min key	877.368	
+	SPARK	3	24	32	Integer	Min key	1867.687	
+	SPARK	3	24	2	Integer	Max Key	104.51	
+	SPARK	3	24	4	Integer	Max Key	187.334	
+	SPARK	3	24	8	Integer	Max Key	406.357	
+	SPARK	3	24	16	Integer	Max Key	868.938	
+	SPARK	3	24	32	Integer	Max Key	1844.45	
+	SPARK	4	32	2	Integer	Total Count	98.254	
+	SPARK	4	32	4	Integer	Total Count	158.767	
+	SPARK	4	32	8	Integer	Total Count	249.861	
+	SPARK	4	32	16	Integer	Total Count	450.682	
+	SPARK	4	32	32	Integer	Total Count	860.327	
+	SPARK	4	32	2	Integer	Distinct Count	130.947	
+	SPARK	4	32	4	Integer	Distinct Count	161.325	
+	SPARK	4	32	8	Integer	Distinct Count	294.32	
+	SPARK	4	32	16	Integer	Distinct Count	551.941	
+	SPARK	4	32	32	Integer	Distinct Count	780.246	
+	SPARK	4	32	2	Integer	Filter: High Selectivity	131.848	
+	SPARK	4	32	4	Integer	Filter: High Selectivity	161.551	
+	SPARK	4	32	8	Integer	Filter: High Selectivity	310.159	
+	SPARK	4	32	16	Integer	Filter: High Selectivity	480.756	
+	SPARK	4	32	32	Integer	Filter: High Selectivity	885.944	
+	SPARK	4	32	2	Integer	Filter: Low Selectivity	139.878	
+	SPARK	4	32	4	Integer	Filter: Low Selectivity	162.894	
+	SPARK	4	32	8	Integer	Filter: Low Selectivity	291.455	
+	SPARK	4	32	16	Integer	Filter: Low Selectivity	479.122	
+	SPARK	4	32	32	Integer	Filter: Low Selectivity	860.784	
+	SPARK	4	32	2	Integer	Aggregate by key	95.351	
+	SPARK	4	32	4	Integer	Aggregate by key	130.57	
+	SPARK	4	32	8	Integer	Aggregate by key	225.22	
+	SPARK	4	32	16	Integer	Aggregate by key	402.688	
+	SPARK	4	32	32	Integer	Aggregate by key	1006.033	
+	SPARK	4	32	2	Integer	Sort by key	265.123	
+	SPARK	4	32	4	Integer	Sort by key	490.613	
+	SPARK	4	32	8	Integer	Sort by key	901.37	
+	SPARK	4	32	16	Integer	Sort by key	1683.587	
+	SPARK	4	32	32	Integer	Sort by key	3556.14	
+	SPARK	4	32	2	Integer	Average value of Key	120.245	
+	SPARK	4	32	4	Integer	Average value of Key	242.352	
+	SPARK	4	32	8	Integer	Average value of Key	498.958	
+	SPARK	4	32	16	Integer	Average value of Key	835.665	
+	SPARK	4	32	32	Integer	Average value of Key	1825.358	
+	SPARK	4	32	2	Integer	Min key	130.465	
+	SPARK	4	32	4	Integer	Min key	150.641	
+	SPARK	4	32	8	Integer	Min key	267.844	
+	SPARK	4	32	16	Integer	Min key	475.36	
+	SPARK	4	32	32	Integer	Min key	791.33	
+	SPARK	4	32	2	Integer	Max Key	119.342	
+	SPARK	4	32	4	Integer	Max Key	160.39	
+	SPARK	4	32	8	Integer	Max Key	270.75	
+	SPARK	4	32	16	Integer	Max Key	481.623	
+	SPARK	4	32	32	Integer	Max Key	885.367	
+	THOR	1	8	2	String	Total Count	27.264	51
+	THOR	1	8	4	String	Total Count	55.12	51
+	THOR	1	8	8	String	Total Count	110.35	51
+	THOR	1	8	16	String	Total Count	222.823	51
+	THOR	1	8	32	String	Total Count	442.98	51
+	THOR	1	8	2	String	Distinct Count	40.45	56
+	THOR	1	8	4	String	Distinct Count	78.356	56
+	THOR	1	8	8	String	Distinct Count	173.68	56
+	THOR	1	8	16	String	Distinct Count	348.71	56
+	THOR	1	8	32	String	Distinct Count	700	56
+	THOR	1	8	2	String	Filter: High Selectivity	23.45	52
+	THOR	1	8	4	String	Filter: High Selectivity	46.154	52
+	THOR	1	8	8	String	Filter: High Selectivity	93.59	52
+	THOR	1	8	16	String	Filter: High Selectivity	201.687	52
+	THOR	1	8	32	String	Filter: High Selectivity	403.72	52
+	THOR	1	8	2	String	Filter: Low Selectivity	25.63	52
+	THOR	1	8	4	String	Filter: Low Selectivity	51.031	52
+	THOR	1	8	8	String	Filter: Low Selectivity	99.11	52
+	THOR	1	8	16	String	Filter: Low Selectivity	205.683	52
+	THOR	1	8	32	String	Filter: Low Selectivity	410.601	52
+	THOR	1	8	2	String	Sort by key	41.22	58
+	THOR	1	8	4	String	Sort by key	127.93	58
+	THOR	1	8	8	String	Sort by key	322.67	58
+	THOR	1	8	16	String	Sort by key	670	58
+	THOR	1	8	32	String	Sort by key	1359	58
+	THOR	3	24	2	String	Total Count	13.26	59
+	THOR	3	24	4	String	Total Count	24.888	59
+	THOR	3	24	8	String	Total Count	51.588	59
+	THOR	3	24	16	String	Total Count	113.9	59
+	THOR	3	24	32	String	Total Count	229.623	59
+	THOR	3	24	2	String	Distinct Count	25.517	55
+	THOR	3	24	4	String	Distinct Count	53.439	55
+	THOR	3	24	8	String	Distinct Count	97.232	55
+	THOR	3	24	16	String	Distinct Count	217.566	55
+	THOR	3	24	32	String	Distinct Count	526.33	55
+	THOR	3	24	2	String	Filter: High Selectivity	13.11	52
+	THOR	3	24	4	String	Filter: High Selectivity	26.151	52
+	THOR	3	24	8	String	Filter: High Selectivity	48.512	52
+	THOR	3	24	16	String	Filter: High Selectivity	112.657	52
+	THOR	3	24	32	String	Filter: High Selectivity	218.791	52
+	THOR	3	24	2	String	Filter: Low Selectivity	12.52	51
+	THOR	3	24	4	String	Filter: Low Selectivity	25.941	51
+	THOR	3	24	8	String	Filter: Low Selectivity	43.175	51
+	THOR	3	24	16	String	Filter: Low Selectivity	103.974	51
+	THOR	3	24	32	String	Filter: Low Selectivity	205.163	51
+	THOR	3	24	2	String	Sort by key	33.65	51
+	THOR	3	24	4	String	Sort by key	66.36	51
+	THOR	3	24	8	String	Sort by key	285.484	51
+	THOR	3	24	16	String	Sort by key	700	51
+	THOR	3	24	32	String	Sort by key	1475.31	51
+	THOR	4	32	2	String	Total Count	7.141	51
+	THOR	4	32	4	String	Total Count	19.357	51
+	THOR	4	32	8	String	Total Count	43.365	51
+	THOR	4	32	16	String	Total Count	102.147	51
+	THOR	4	32	32	String	Total Count	159.392	51
+	THOR	4	32	2	String	Distinct Count	16.24	56
+	THOR	4	32	4	String	Distinct Count	34.854	56
+	THOR	4	32	8	String	Distinct Count	94.572	56
+	THOR	4	32	16	String	Distinct Count	160.389	56
+	THOR	4	32	32	String	Distinct Count	302.758	56
+	THOR	4	32	2	String	Filter: High Selectivity	10.54	52
+	THOR	4	32	4	String	Filter: High Selectivity	23.146	52
+	THOR	4	32	8	String	Filter: High Selectivity	40.73	52
+	THOR	4	32	16	String	Filter: High Selectivity	101.187	52
+	THOR	4	32	32	String	Filter: High Selectivity	198.243	52
+	THOR	4	32	2	String	Filter: Low Selectivity	11.27	52
+	THOR	4	32	4	String	Filter: Low Selectivity	22.924	52
+	THOR	4	32	8	String	Filter: Low Selectivity	40.167	52
+	THOR	4	32	16	String	Filter: Low Selectivity	95.153	52
+	THOR	4	32	32	String	Filter: Low Selectivity	197.249	52
+	THOR	4	32	2	String	Sort by key	20.731	58
+	THOR	4	32	4	String	Sort by key	46.347	58
+	THOR	4	32	8	String	Sort by key	96.034	58
+	THOR	4	32	16	String	Sort by key	512.275	58
+	THOR	4	32	32	String	Sort by key	1110.237	58
+	SPARK	1	8	2	String	Total Count	31.764	
+	SPARK	1	8	4	String	Total Count	57.431	
+	SPARK	1	8	8	String	Total Count	106.818	
+	SPARK	1	8	16	String	Total Count	222.12	
+	SPARK	1	8	32	String	Total Count	299.081	
+	SPARK	1	8	2	String	Distinct Count	46.83	
+	SPARK	1	8	4	String	Distinct Count	60.99	
+	SPARK	1	8	8	String	Distinct Count	113.548	
+	SPARK	1	8	16	String	Distinct Count	263.684	
+	SPARK	1	8	32	String	Distinct Count	488.939	
+	SPARK	1	8	2	String	Filter: High Selectivity	320.423	
+	SPARK	1	8	4	String	Filter: High Selectivity	400.027	
+	SPARK	1	8	8	String	Filter: High Selectivity	667.195	
+	SPARK	1	8	16	String	Filter: High Selectivity	735.274	
+	SPARK	1	8	32	String	Filter: High Selectivity	1449.611	
+	SPARK	1	8	2	String	Filter: Low Selectivity	89.654	
+	SPARK	1	8	4	String	Filter: Low Selectivity	170.364	
+	SPARK	1	8	8	String	Filter: Low Selectivity	361.983	
+	SPARK	1	8	16	String	Filter: Low Selectivity	756.318	
+	SPARK	1	8	32	String	Filter: Low Selectivity	1568.99	
+	SPARK	1	8	2	String	Sort by key	350.121	
+	SPARK	1	8	4	String	Sort by key	640.457	
+	SPARK	1	8	8	String	Sort by key	1320.867	
+	SPARK	1	8	16	String	Sort by key	2760.877	
+	SPARK	1	8	32	String	Sort by key	5400.645	
+	SPARK	3	24	2	String	Total Count	25.157	
+	SPARK	3	24	4	String	Total Count	43.852	
+	SPARK	3	24	8	String	Total Count	78.957	
+	SPARK	3	24	16	String	Total Count	148.856	
+	SPARK	3	24	32	String	Total Count	220.367	
+	SPARK	3	24	2	String	Distinct Count	36.387	
+	SPARK	3	24	4	String	Distinct Count	52.154	
+	SPARK	3	24	8	String	Distinct Count	90.675	
+	SPARK	3	24	16	String	Distinct Count	167.76	
+	SPARK	3	24	32	String	Distinct Count	351.864	
+	SPARK	3	24	2	String	Filter: High Selectivity	220.543	
+	SPARK	3	24	4	String	Filter: High Selectivity	328.848	
+	SPARK	3	24	8	String	Filter: High Selectivity	508.584	
+	SPARK	3	24	16	String	Filter: High Selectivity	605.814	
+	SPARK	3	24	32	String	Filter: High Selectivity	1041.608	
+	SPARK	3	24	2	String	Filter: Low Selectivity	68.544	
+	SPARK	3	24	4	String	Filter: Low Selectivity	135.271	
+	SPARK	3	24	8	String	Filter: Low Selectivity	261.217	
+	SPARK	3	24	16	String	Filter: Low Selectivity	598.884	
+	SPARK	3	24	32	String	Filter: Low Selectivity	1268.89	
+	SPARK	3	24	2	String	Sort by key	270.15	
+	SPARK	3	24	4	String	Sort by key	550.152	
+	SPARK	3	24	8	String	Sort by key	1125.199	
+	SPARK	3	24	16	String	Sort by key	2380.978	
+	SPARK	3	24	32	String	Sort by key	4860.122	
+	SPARK	4	32	2	String	Total Count	82.645	
+	SPARK	4	32	4	String	Total Count	106.298	
+	SPARK	4	32	8	String	Total Count	126.58	
+	SPARK	4	32	16	String	Total Count	164.251	
+	SPARK	4	32	32	String	Total Count	254.946	
+	SPARK	4	32	2	String	Distinct Count	80.761	
+	SPARK	4	32	4	String	Distinct Count	110.38	
+	SPARK	4	32	8	String	Distinct Count	140.847	
+	SPARK	4	32	16	String	Distinct Count	165.369	
+	SPARK	4	32	32	String	Distinct Count	251.793	
+	SPARK	4	32	2	String	Filter: High Selectivity	110.248	
+	SPARK	4	32	4	String	Filter: High Selectivity	155.899	
+	SPARK	4	32	8	String	Filter: High Selectivity	241.127	
+	SPARK	4	32	16	String	Filter: High Selectivity	390.545	
+	SPARK	4	32	32	String	Filter: High Selectivity	695.427	
+	SPARK	4	32	2	String	Filter: Low Selectivity	118.26	
+	SPARK	4	32	4	String	Filter: Low Selectivity	152.664	
+	SPARK	4	32	8	String	Filter: Low Selectivity	201.844	
+	SPARK	4	32	16	String	Filter: Low Selectivity	380.154	
+	SPARK	4	32	32	String	Filter: Low Selectivity	725.757	
+	SPARK	4	32	2	String	Sort by key	242.36	
+	SPARK	4	32	4	String	Sort by key	465.682	
+	SPARK	4	32	8	String	Sort by key	1005.874	
+	SPARK	4	32	16	String	Sort by key	2011.874	
+	SPARK	4	32	32	String	Sort by key	3857.125	
+	SPARK	4	32	2	String	Max Key	85.144	
+	SPARK	4	32	4	String	Max Key	110.39	
+	SPARK	4	32	8	String	Max Key	135.57	
+	SPARK	4	32	16	String	Max Key	160.326	
+	SPARK	4	32	32	String	Max Key	250.94	
+	SPARK	4	32	2	String	Min key	84.872	
+	SPARK	4	32	4	String	Min key	95.612	
+	SPARK	4	32	8	String	Min key	120.35	
+	SPARK	4	32	16	String	Min key	140.484	
+	SPARK	4	32	32	String	Min key	180.367	
